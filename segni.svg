@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Empatica: open contours, displaced planes and a single accent. -->
+  <style>
+    .sign-accent {
+      transform-box: fill-box;
+      transform-origin: center;
+      transform: translateX(var(--sign-shift, 0px)) rotate(var(--sign-turn, 0deg));
+      transition: transform var(--sign-duration, 360ms) cubic-bezier(.2, .7, .25, 1);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .sign-accent {
+        transform: none;
+        transition: none;
+      }
+    }
+  </style>
+  <symbol id="presenza" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M8 8v14m5-14v11m5-11v8M22 32v-8m5 8V21m5 11V18"/>
+      <path class="sign-accent" d="M12 25l15-10" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="relazioni" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 10h7l12 12h7M7 24h7l5-5m6-6 3-3h5"/>
+      <path class="sign-accent" d="M7 30h10l8-8h8" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="materia" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="m7 18 14 6 12-8m-26 8 14 6 12-8m-26 8 14 6 12-8"/>
+      <path class="sign-accent" d="m7 12 14 6 12-8" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="studio" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 12v19h25M12 7v19h20M12 26l-5 5"/>
+      <path d="m17 19 6-8 9 7-5 6z" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="identita" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M8 18V7h11M8 18l11-11m-2 24V20h11m-11 11 11-11"/>
+      <path class="sign-accent" d="M23 18v-8h8m-8 8 8-8" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="audiovisivo" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 15V9h10m6 0h10v6M7 25v6h10m6 0h10v-6"/>
+      <path class="sign-accent" d="M7 20h5l4-5 4 10 4-10 4 5h5" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="esperienze" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 11v18l9-6V16l-9-5m26 0v18l-9-6V16l9-5M16 16h8"/>
+      <path class="sign-accent" d="m13 34 12-6-7-3 3-5" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="idea" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M12 8H7v24h5m16-24h5v24h-5m-12-6 4-7 4 7"/>
+      <path d="M20 15v-5m5 6 3-4" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="linguaggio" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 29h26M7 22l5-7h5m3 7v-9m6 9 6-8"/>
+      <path d="M8 9h9m7 0h8" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="costruzione" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 31V17h12v-5h14v19H7m6-5h14v-8"/>
+      <path d="M7 12h7V7h12" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="imprese" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 10h8l7 10h11M7 30h8l7-10m5-6v-4h6m-6 16v4h6"/>
+      <path d="M7 20h8" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="enti" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 12h7l4 4h15M7 28h7l4-4h15m-8-8v8"/>
+      <path d="M19 8h6v4m-6 20h6v-4" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="lavori" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 27V9h18m-13 23V14h21v18H12"/>
+      <path class="sign-accent" d="M17 27v-8h10m-10 8 10-8" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="contatti" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M24 10H7v12h5v5l7-5h5m-10-6h4m-4-3h6"/>
+      <path d="M27 16h6v12h-4v4l-6-4h-4" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="facilitazione" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 13h6l3 3m17-3h-6l-3 3M20 7v6m0 17v4"/>
+      <path d="m9 23 11-5 11 5-11 7z" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="accesso" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M13 31V9h17v22m-17 0 10-4V5L13 9"/>
+      <path d="M7 32h26" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="pratica" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 32V8h15l5 5v8M12 16h10m-10 5h6"/>
+      <path d="M13 31h5v-4h6v-4h8" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="ufficio" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M7 11h10v8h10m6 10H23v-8H13M8 16v7h4m20 1v-7h-4"/>
+      <path d="M17 30h-6m12-20h6" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="freccia" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M10 30 29 11m-14 0h14v14"/>
+      <path d="m7 24 7-7" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+
+  <symbol id="chiudi" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square">
+      <path d="m10 10 20 20m0-20L10 30"/>
+    </g>
+  </symbol>
+
+  <symbol id="movimento" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M6 24h5l5-10 6 12 5-7h7"/>
+      <path d="M8 31h8" stroke="var(--sign-accent, currentColor)"/>
+    </g>
+  </symbol>
+</svg>
